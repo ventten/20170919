@@ -1,6 +1,8 @@
-public class Dev {
+public class Dev2 {
+
     private String name;
     private Integer age;
+
 
     public String getName() {
         return name;
@@ -16,13 +18,5 @@ public class Dev {
 
     public void setAge(Integer age) {
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "Dev{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
     }
 }
